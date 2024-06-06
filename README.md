@@ -6,6 +6,6 @@ A repo for the source code of a dndg mod that adds (almost) everything from the 
 
 
 Credits
-Mod Creator - Rando (https://github.com/rando-idiot)
-Tool Creator - TotallyNotSeth (https://github.com/TotallyNotSethP)
-Here for the stuff Rando didnt want to do - Maple (https://github.com/Maple29234)
+Mod Creator: - Rando (https://github.com/rando-idiot)
+Tool Creator: - TotallyNotSeth (https://github.com/TotallyNotSethP)
+Here for the stuff Rando didnt want to do: - Maple (https://github.com/Maple29234)
