@@ -1,0 +1,67 @@
+Overly Complicated Card:
+  Description: It's too compilated to describe. (credit lieutenantlame)
+  Image: overcomplex_card_img.png
+  Value: 12
+  Triggers:
+    Play: overcomplex_card_play.gd.j2
+
+Cardboard:
+  Description: Does literally nothing. (credit serialdesignationf)
+  Image: cardboard_card_img.png
+  Value: 0
+  Triggers:
+    Play: pass.gd.j2
+Your Mom (sorry, im sure she is a wonderful woman.):
+  Description: Crashes your game on play. (credit monkeyinc.)
+  Image: yourmom_card_img.png
+  Value: 9999999999999999999
+  Triggers:
+     Play: pass.gd.j2
+22 Of Nothings:
+  Description: A nothings card worth 22. (credit squeaky_duck)
+  Image: 22ofnothings_card_img.png
+  Value: 22
+  Triggers:
+    Play: pass.gd.j2
+
+Fidget Spinner:
+  Description: On click, gain one advantage. (credit regularinsanity)
+  Image: fidgetspinner_card_img.png
+  Value: 0
+  Triggers:
+    Click: fidgetspinner_card_click.gd.j2
+    
+Arbitrary Number:
+  Description: On play, chooses a 'random' number to take as a value. (credit lieutenantlame)
+  Image: arbitrarynumber_card_img.png
+  Value: 0
+  Triggers:
+    Play: arbitrarynumber_card_play.gd.j2
+
+Self Destruct:
+  Description: On play, both players take 20 damage. (credit nitethedragon)
+  Image: selfdestruct_card_img.png
+  Value: 99
+  Triggers:
+    Play: selfdestruct_card_play.gd.j2
+
+Jack of a trade:
+  Description: Just a fucking jack. (credit imanuserius)
+  Image: jackofatrade_card_img.png
+  Value: 10
+  Triggers:
+    Play: pass.gd.j2
+
+Recycling Bin:
+  Description: On play, burn this card, then create another one. (credit imanuserius)
+  Image: recyclebin_card_img.png
+  Value: 2
+  Triggers:
+    Play: recyclebin_card_play.gd.j2
+
+Fire Card:
+  Description: On play, fire. (credit theambushingbush)
+  Image: firecard_card_img.png
+  Value: 0
+  Triggers:
+    Play: firecard_card_play.gd.j2
