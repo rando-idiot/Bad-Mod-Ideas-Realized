@@ -179,3 +179,56 @@ Park Plaza:
   Suit: spades
   Triggers:
     Play: pass.gd.j2
+
+Armma, Elder of Spades:
+  Description: On Play; gain 20 shield. On bust limit exceeded, deal damage equivalent to your shield. (credit monkeyinc.)
+  Image: spadeelder_card_img.png
+  Value: 20
+  Suit: spades
+  Triggers:
+    Play: spadeelder_card_play.gd.j2
+    Bust Limit Exceeded: spadeelder_card_bust.gd.j2
+
+Celestia, Elder of Clubs:
+  Description: On play, deal 10 damage. On bust limit exceeded, heal however much HP your opponent has. (credit monkeyinc.)
+  Image: clubelder_card_img.png
+  Value: 20
+  Suit: clubs
+  Triggers:
+    Play: clubelder_card_play.gd.j2
+    Bust Limit Exceeded: clubelder_card_bust.gd.j2
+
+Batan, Elder of Hearts:
+  Description: On play, heal 10 HP. On bust limit exceeded, gain 10 max HP. (credit monkeyinc.)
+  Image: heartelder_card_img.png
+  Value: 20
+  Suit: hearts
+  Triggers:
+    Play: heartelder_card_play.gd.j2
+    Bust Limit Exceeded: heartelder_card_bust.gd.j2
+    
+Furore, Elder of Diamonds:
+  Description: On play, gain 75 chips. On exploit, set your hp to 10 and double your chips. (credit monkeyinc.)
+  Image: diamondelder_card_img.png
+  Value: 20
+  Suit: diamonds
+  Triggers:
+    Play: diamondelder_card_play.gd.j2
+    Click: diamondelder_card_exploit.gd.j2
+
+Error loading foil texture:
+  Description: Literally just a foil card. (credit to the mod dev, rando.idiot)
+  Image: foilmoment_card_img.png
+  Value: 0
+  Triggers:
+    Play: alwaysfoil.gd.j2
+
+Euler of hearts:
+  Description: On stand, round up.
+  Image: eulerheart_card_img.png
+  Value: 2
+  Suit: hearts
+  Attributes:
+    - KING
+  Triggers:
+    Stand: roundup.gd.j2
