@@ -111,11 +111,12 @@ Slow Play:
     Stand: slowplay_card_stand.gd.j2
 
 Quick Play:
-  Description: On play, lock. Most likely forces stand. (credit imanuserius)
+  Description: On play, lock. Most likely forces stand. (credit imanuserius) On stand, becomes foil.
   Image: quickplay_card_img.png
   Value: 15
   Triggers:
     Play: slowplay_card_play.gd.j2
+    Stand: alwaysfoil.gd.j2
 
 Loss:
   Description: Forces loss. (credit to the mod dev, rando.idiot)
@@ -232,3 +233,54 @@ Euler of hearts:
     - KING
   Triggers:
     Stand: roundup.gd.j2
+
+All or nothing:
+  Description: On bust, shred the card. (credit roaxial)
+  Image: allornothing_card_img.png
+  Value: 21
+  Suit: all_suits_at_once
+  Triggers:
+    Bust Limit Exceeded: allornothing_card_bust.gd.j2
+
+Sire:
+  Description: On exploit, Deal 1 damage. On stand, change to clubs. (credit i forgor lol)
+  Image: sire_card_img.png
+  Value: 10
+  Suit: hearts
+  Attributes:
+    - KING
+  Triggers:
+    Click: sire_card_exploit.gd.j2
+    Stand: sire_card_stand.gd.j2
+
+E of spades:
+  Description: On stand, if not at blackjack, round  down. (credit crazy_dave_aka_crazy_dave)
+  Image: eofspades_card_img.png
+  Value: 3
+  Suit: spades
+  Triggers:
+    Stand: rounddown.gd.j2
+
+OP-er card:
+  Description: Flexible with the following 2 values; 0-22. (credit aeriethegamer)
+  Image: oper_card_img.png
+  Value: 22
+  Suit: hearts
+  Triggers:
+    Stand: flexible.gd.j2
+
+Double Down:
+  Description: On exploit, lose 200 chips and deal 50 damage. (credit monkeyinc.)
+  Image: doubledown_card_img.png
+  Value: 20
+  Suit: all_suits_at_once
+  Triggers:
+    Click: doubledown_card_stand.gd.j2
+
+Ace of Cakes:
+  Description: Flexible. On Stand, regen health equal to card value, then burn. (credit drwhofan13)
+  Image: aceofcakes_card_img.png
+  Value: 11
+  Suit: spades
+  Triggers:
+    Stand: aceofcakes_card_stand.gd.j2

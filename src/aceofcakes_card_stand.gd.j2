@@ -1,0 +1,6 @@
+var bust_limit = current_player.get_node("ScoreCard").max_score
+if current_player.score > bust_limit:
+    card.set_card_value(1)
+
+current_player.heal(card.get_card_value())
+current_player.burn_card(card.get_card_id())
