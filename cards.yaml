@@ -284,3 +284,25 @@ Ace of Cakes:
   Suit: spades
   Triggers:
     Stand: aceofcakes_card_stand.gd.j2
+
+Spaghetti Code:
+  Description: On exploit, create 5 glitch cards. (credit rando.idiot)
+  Image: squimpch.png
+  Value: 0
+  Triggers:
+    Click: shitpost.gd.j2
+
+Medi-Card:
+  Description: On exploit, lose 15 chips and gain 5 hp. On stand, lose 10 chips. (credit squeaky_duck)
+  Image: medi_card_img.png
+  Value: 0
+  Triggers:
+    Click: medi_card_exploit.gd.j2
+    Stand: medi_card_stand.gd.j2
+
+Mitosis:
+  Description: On exploit, make another mitosis. (credit roaxial)
+  Image: mitosis_card_img.png
+  Value: 1
+  Triggers:
+    Click: carddupe.gd.j2
